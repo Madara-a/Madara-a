@@ -4,7 +4,7 @@ body{
 nav{
     width: 100%;
     height: 60px;
-    background: #46ad0b;
+    background: #945968;
 }
 .logo{
     color: #fff;
@@ -25,20 +25,27 @@ ul li{
     font-size: 16px;
     text-transform: uppercase;  
 }
+
+
+
+
+
+
+
 .main{
     width: 100%;
-    height: calc(100% - 60px);
-    background: url();
-    background-repeat: round; 3
-    background-position: center;1
-    background-attachment: fixed; 4
-    background-size: 100% auto ; 2 
+    height: calc(1000px - 60px);
+    background: url(../img/%D1%82%D0%B5%D0%BD%D1%8C.png) bottom no-repeat  ,url(../img/%D1%84%D0%BE%D0%BD.png) center/cover no-repeat ;
+    
+      
+    
 }
 .title_container{
     float: left;
-    margin: 330px 0px 0px 330px;
-    color: #2c384a;
+    margin: 330px 0px 0px 290px;
+    color: #945968;
     text-align: center;
+    
     
 }
 .title_container h1{
@@ -61,7 +68,12 @@ ul li{
     border-radius: 5px;
     color: #79818d;
     padding: 0px 15px;
+   
 }
+
+
+
+
 
 
 
@@ -69,14 +81,15 @@ ul li{
 
 
 .main1{
-    margin-top: 200px;
-    
-     text-align: center;
+    margin-top: 100px;
+    text-align: center;
 }
 .main1 h2{
-    color: #263244;
+    color: #945968;
     font-size: 60px;
     text-align: center;
+    margin-bottom: 100px;
+    
 }
 .main1 img{
     margin-top: 30px;
@@ -105,56 +118,86 @@ ul li{
 
 
 .main2{
-   margin-top: 200px;
-  
-     width: 100%;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-top: 200px;
+    width: 100%;
+    height: 600px;
+    background: url(../img/%D1%84%D0%BE%D0%BD%20%D0%B4%D0%BB%D1%8F%20%D1%87%D1%82%D0%BE%20%D1%8F%20%D1%83%D0%BC%D0%B5%D1%8E%20.jpg);
+    background-position: center;
+    background-size: 100% auto ; 
+    background-repeat: round; 
+    background-attachment: fixed; 
 }
 .main2 h2{
+    padding-top: 100px;
     width: 100%;
     text-align: center;
-    color: #263244;
+    color: #945968;
     font-size: 60px;
     margin-bottom: 100px;
 }
-.main2 div{
-    float: left;
-    text-align: center;
-    margin-right: 10px;
-    margin-left: 10px;
-    text-transform: uppercase; 
+.item_skills{
+   text-align: center; 
+   float: left;
+   
+  
     
 }
+.R1{
+    padding-top:5px; 
+    padding-left: 250px;
+    padding-right: 100px;
+}
+.R2{
+    padding-top:5px; 
+     padding-right: 100px;
+}
+.R3{
+    padding-top:5px;
+     padding-left: 100px;
+}
 .main2 h4{
+    
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 40px;
+    font-size: 25px;
     color: #d2883e;
      
 }
 .main2 p{
+    
     margin-top: 20px;
+    font-size: 10px;
     color: #79818d;
 }
+
+
+
+
+
+
+
 
 
 
 
 
 .main3{
-     margin-top: 1000px;
+     margin-top: 100px;
      text-align: center;
      width: 100%;
 }
 .main3 h2{
      width: 100%;
     text-align: center;
-    color: #263244;
+    color: #945968;
     font-size: 60px;
     margin-bottom: 100px;
 }
 .main3 p{
     margin-top: 20px;
     color: #79818d;
+    padding-bottom: 40px;
 }
 
 
@@ -167,7 +210,7 @@ ul li{
     
 }
 .main4 h2{
-    color: #263244;
+    color: #945968;
     font-size: 60px;
     text-align: center;
 }
@@ -207,8 +250,14 @@ ul li{
 }
 
 .main5{
-     margin-top: 200px;
-     width: 100%;
+    margin-top: 200px;
+    width: 100%;
+    height: 500px;
+    background: url(../img/%D0%A4%D0%BE%D0%BD%20%D0%B4%D0%BB%D1%8F%20%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B8.png);
+    background-position: center;
+    background-size: 100% auto ; 
+    background-repeat: round; 
+    background-attachment: fixed; 
    
 }
 .Statist{
@@ -217,8 +266,8 @@ ul li{
     padding-left: 300px; 
 }
 .main5 h2{
-     
-    color: #263244;
+    padding-top: 100px;
+    color: #945968;
     font-size: 60px;
     text-align: center;
 }
@@ -242,7 +291,7 @@ ul li{
 
 .main6{
     width: 100%;
-    margin-top: 600px; 
+    margin-top: 150px; 
 }
 .main6 h2{
     color: #263244;
@@ -256,21 +305,35 @@ ul li{
 }
 
 
-
+.My{
+    width: 100%;
+    height: 700px;
+    background: url(../img/%D1%84%D0%BE%D0%BD%20%D0%B4%D0%BB%D1%8F%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%BE%D0%B2.jpg);
+    background-position: center;
+    background-size: 100% auto ; 
+    background-repeat: round; 
+    background-attachment: fixed; 
+}
 .main7{
      width: 100%;
      margin-top: 200px;
     
 }
 .main7 h2{
+  padding-top: 100px;
     color: #263244;
     font-size: 60px;
     text-align: center;
 }
 .main7 p{
+    margin-bottom: 20px;
+    margin-top: 20px;
     text-align: center;
     color: #79818d;
     font-size: 20px; 
+}
+.main7 h4{
+    margin-top: 15px;
 }
 
 .number {
@@ -284,8 +347,10 @@ ul li{
 
 
 .main8{
-     
      margin-top: 200px;
+     
+    
+    
 }
 
 .main8 h3{
@@ -307,7 +372,7 @@ ul li{
    
 }
 .in2{
-   float: left;  
+   float: left; 
    margin-left: 30px;
    margin-top: 25px;
    border: 2px solid #79818d;
@@ -316,7 +381,7 @@ ul li{
    
 }
 .in3{
-   
+
    float: left; 
    margin-left: 500px;
    margin-top: 25px;
@@ -332,7 +397,7 @@ ul li{
    border: 2px solid #79818d;
    border-radius: 5px;
    padding: 5px 40px 5px 5px;  
-   background: none;
+   background: fon;
     
 }
 //.a{
